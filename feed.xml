@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://osint-news.github.io/gh-pages" />
-    <updated>2023-02-09T00:46:51+00:00</updated>
+    <updated>2023-02-09T00:49:54+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://osint-news.github.io/gh-pages/media/posts/1/pexels-ignat-arapov-6638877.jpg" medium="image" />
             <category term="CTF"/>
 
-        <updated>2023-02-09T00:46:51+00:00</updated>
+        <updated>2023-02-09T00:49:54+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/gh-pages/media/posts/1/pexels-ignat-arapov-6638877.jpg" alt="Image of Brno, courtesy of Ignat Arapov at Pexels" />
@@ -53,7 +53,8 @@ step2.zip
 Make a hash of the color name to uncover the next step.
 </code></pre>
 <p>This is a really good scenario for highlighting something The Seint says in the introduction to this CTF: <em><strong>Remember that the tools aren’t enough. Use your open mind and try not to fall in the mind traps.</strong></em></p>
-<p>It’s tempting to rely on tools in the OSINT world, but occasionally you just have to charm Google or Bing with the right search term (<em>much like we’re all learning how to craft prompts to get the most out of our new AI tools</em>). So let’s try and find a European city whose cathedral bells ring noon an hour early. It took several iterations before I found the answer with: <code>europe cathedral ringing noon at 11</code></p>
+<p>It’s tempting to rely on tools in the OSINT world, but occasionally you just have to charm Google or Bing with the right search term (<em>much like we’re all learning how to craft prompts to get the most out of our new AI tools</em>). So let’s try and find a European city whose cathedral bells ring noon an hour early. It took several iterations before I found the answer with:
+<code>&quot;europe cathedral ringing noon at 11&quot;</code></p>
 <p>Which led to a promising result:
 <figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/gh-pages/media/posts/1/02-brno.jpg" alt="Google search results" width="627" height="127"  sizes="100vw" srcset="https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-xs.jpg 300w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-sm.jpg 480w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-md.jpg 768w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-lg.jpg 1024w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-xl.jpg 1360w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-2xl.jpg 1600w"></figure></p>
 <p>The ‘little street named after a president’ turns out to be too little to find on an overhead view in Google Maps, so I ended up doing what I often do in CTFs, which is simply to have a good hunt around ‘on foot’, i.e., in Street View. Eventually, I found the skull on an alley named after the first president of the Czech Repulic:
