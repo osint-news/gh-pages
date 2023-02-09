@@ -1,3 +1,3 @@
 # OSINT News
 
-Site is [here]().
+Site is [here](https://osint-news.github.io/).
