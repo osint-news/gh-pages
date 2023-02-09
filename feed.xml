@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://osint-news.github.io/gh-pages" />
-    <updated>2023-02-09T00:49:54+00:00</updated>
+    <updated>2023-02-09T01:03:06+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://osint-news.github.io/gh-pages/media/posts/1/pexels-ignat-arapov-6638877.jpg" medium="image" />
             <category term="CTF"/>
 
-        <updated>2023-02-09T00:49:54+00:00</updated>
+        <updated>2023-02-09T01:03:06+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/gh-pages/media/posts/1/pexels-ignat-arapov-6638877.jpg" alt="Image of Brno, courtesy of Ignat Arapov at Pexels" />
@@ -32,8 +32,8 @@
                 <p>I am a bit late to The Seint’s now annual OSINT CTF, but that’s probably a good thing as this series will contain spoilers. You can follow along in the posts ahead, or you can always have a go yourself <a href="https://github.com/seintpl/osintquiz/tree/main/2022">at this repo</a>. You will also find the 2021 CTF on GitHub.</p>
 <p>Rather than provide a simple show-and-tell, I will also try to share any learning I picked up along the way. This assumes I even complete the challenge, of course!</p>
 <p>We start off with a password-protected Zip file (<em>2022.zip</em>), which contains all the puzzles nested inside each other. The password to the next step is always the MD5 hash made of the current step’s answer written in lower case.</p>
-<p>We’re told that the first password, to get us going, is the MD5 hash of the word “summer” (without quotes), so let’s head off to <a href="https://cyberchef.org/">CyberChef</a>.</p>
 <p><strong>Care! Please don’t open random Zip files downloaded from the internet without testing them! There’s no reason to be distrustful of The Seint, but good file hygiene should be standard practice.</strong></p>
+<p>We’re told that the first password, to get us going, is the MD5 hash of the word “summer” (without quotes), so let’s head off to <a href="https://cyberchef.org/">CyberChef</a>.</p>
 <h3 id="spoiler-warning">Spoiler Warning</h3>
 <p>This is a walkthrough, so you will find spoilers below and in the subsequent posts in this series. Do try and solve the puzzles on your own before reading ahead!</p>
 <h3 id="creating-an-md5-hash-in-cyberchef">Creating an MD5 Hash in CyberChef</h3>
