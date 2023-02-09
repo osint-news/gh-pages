@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/gh-pages/feed.xml" rel="self" />
     <link href="https://osint-news.github.io/gh-pages" />
-    <updated>2023-02-09T00:16:18+00:00</updated>
+    <updated>2023-02-09T00:46:51+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://osint-news.github.io/gh-pages/media/posts/1/pexels-ignat-arapov-6638877.jpg" medium="image" />
             <category term="CTF"/>
 
-        <updated>2023-02-09T00:16:18+00:00</updated>
+        <updated>2023-02-09T00:46:51+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/gh-pages/media/posts/1/pexels-ignat-arapov-6638877.jpg" alt="Image of Brno, courtesy of Ignat Arapov at Pexels" />
@@ -57,7 +57,7 @@ Make a hash of the color name to uncover the next step.
 <p>Which led to a promising result:
 <figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/gh-pages/media/posts/1/02-brno.jpg" alt="Google search results" width="627" height="127"  sizes="100vw" srcset="https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-xs.jpg 300w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-sm.jpg 480w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-md.jpg 768w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-lg.jpg 1024w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-xl.jpg 1360w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-2xl.jpg 1600w"></figure></p>
 <p>The ‘little street named after a president’ turns out to be too little to find on an overhead view in Google Maps, so I ended up doing what I often do in CTFs, which is simply to have a good hunt around ‘on foot’, i.e., in Street View. Eventually, I found the skull on an alley named after the first president of the Czech Repulic:
-<figure class="post__image"><img loading="lazy" src="file:///C:/Users/jules/Documents/Publii/sites/osint-news/input/media/posts/1/03-skull.jpg" alt="Skull behind Brno cathedral" width="977" height="551"  sizes="100vw" srcset="file:///C:/Users/jules/Documents/Publii/sites/osint-news/input/media/posts/1/responsive/03-skull-xs.jpg 300w ,file:///C:/Users/jules/Documents/Publii/sites/osint-news/input/media/posts/1/responsive/03-skull-sm.jpg 480w ,file:///C:/Users/jules/Documents/Publii/sites/osint-news/input/media/posts/1/responsive/03-skull-md.jpg 768w ,file:///C:/Users/jules/Documents/Publii/sites/osint-news/input/media/posts/1/responsive/03-skull-lg.jpg 1024w ,file:///C:/Users/jules/Documents/Publii/sites/osint-news/input/media/posts/1/responsive/03-skull-xl.jpg 1360w ,file:///C:/Users/jules/Documents/Publii/sites/osint-news/input/media/posts/1/responsive/03-skull-2xl.jpg 1600w"></figure></p>
+<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/gh-pages/media/posts/1/03-skull.jpg" alt="Image of alley behind Brno Cathedral. Source: Google Maps" width="977" height="551"  sizes="100vw" srcset="https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-xs.jpg 300w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-sm.jpg 480w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-md.jpg 768w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-lg.jpg 1024w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-xl.jpg 1360w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-2xl.jpg 1600w"></figure></p>
 <p>True enough, on the other side of that gate is a large piece of cloth in a fairly distinctive colour. (<em>The relevant image was taken in 2017, so if it’s replaced with a more recent image before you try this CTF, you might need to use the Street View Timeline to go back to 2017</em>) Hashing the cloth’s colour allows us to open <code>step2.zip</code>, and you can see how I get on with that step in the next post!</p>
 <h6 id="im-stuck">I’m stuck!</h6>
 <p>If you can’t find the gate by plodding around Brno cathedral, you’re welcome to click on the spoiler below. This will take you to the location of the gate in Google Maps, and you should be able to find the cloth fairly easily.</p>
