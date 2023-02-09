@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/feed.xml" rel="self" />
     <link href="https://osint-news.github.io" />
-    <updated>2023-02-09T01:21:50+00:00</updated>
+    <updated>2023-02-09T01:50:58+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -16,20 +16,33 @@
         </author>
         <link href="https://osint-news.github.io/the-seints-christmas-ctf-part-2.html"/>
         <id>https://osint-news.github.io/the-seints-christmas-ctf-part-2.html</id>
+        <media:content url="https://osint-news.github.io/media/posts/2/eirik-solheim-mWTOR3Rx8l8-unsplash.jpg" medium="image" />
+            <category term="CTF"/>
 
-        <updated>2023-02-09T01:21:50+00:00</updated>
+        <updated>2023-02-09T01:50:58+00:00</updated>
             <summary>
                 <![CDATA[
-                    If you want to see Part 1 of this walkthrough, you can find it here. Spoilers ahead! The next message I got from my friend was strange. I think there was something wrong with her phone. The message I got was just &quot;Going to 727774447777&quot;.
+                        <img src="https://osint-news.github.io/media/posts/2/eirik-solheim-mWTOR3Rx8l8-unsplash.jpg" alt="Photo by Eirik Solheim at UNSPLASH" />
+                    If you want to see Part 1 of this walkthrough, you can find it here. Spoilers ahead! Part 2 of The Seint’s challenge would have been a real head-scratcher for me if it hadn’t appeared in a puzzle before. Here’s the text in step2.txt: The&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><em>If you want to see Part 1 of this walkthrough, you can find it here. <strong>Spoilers ahead!</strong></em></p>
+                    <p><img src="https://osint-news.github.io/media/posts/2/eirik-solheim-mWTOR3Rx8l8-unsplash.jpg" class="type:primaryImage" alt="Photo by Eirik Solheim at UNSPLASH" /></p>
+                <p><em>If you want to see Part 1 of this walkthrough, you can find it <a href="https://osint-news.github.io/osint-walkthrough-the-seint-ctf-2022.html">here</a>. <strong>Spoilers ahead!</strong></em></p>
+<p>Part 2 of The Seint’s challenge would have been a real head-scratcher for me if it hadn’t appeared in a puzzle before. Here’s the text in <code>step2.txt</code>:</p>
 <pre><code>The next message I got from my friend was strange. I think there was something wrong with her phone. The message I got was just &quot;Going to 727774447777&quot;. Did she want to type a phone number or something was wrong with her phone? Could that be the hint to find the clue to her next location? 
 
 The place she was travelling to (lowercase -&gt; hash) is the password.
 </code></pre>
+<p>That doesn’t look like any phone number I’ve ever seen, but the mention of a phone is a big hint! Unfortunately, many of The Seint’s readers may not be old enough to remember phones that looked like this:
+<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/2/04-Nokia-3310-wikipedia.png" alt="Nokia 3310" width="400" height="912"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/2/responsive/04-Nokia-3310-wikipedia-xs.png 300w ,https://osint-news.github.io/media/posts/2/responsive/04-Nokia-3310-wikipedia-sm.png 480w ,https://osint-news.github.io/media/posts/2/responsive/04-Nokia-3310-wikipedia-md.png 768w ,https://osint-news.github.io/media/posts/2/responsive/04-Nokia-3310-wikipedia-lg.png 1024w ,https://osint-news.github.io/media/posts/2/responsive/04-Nokia-3310-wikipedia-xl.png 1360w ,https://osint-news.github.io/media/posts/2/responsive/04-Nokia-3310-wikipedia-2xl.png 1600w"></figure></p>
+<p>(<em>I used to tweet with a phone like this!</em>)</p>
+<p>When sending SMS, or writing contact names, we used to have to tap a number key repeatedly to get the right letter. For example, tapping ‘7’ once gave us ‘P’, but tapping it three times gave us ‘R’. With that information, it should be easy to work out what the numbers represent, and we can get our MD5 hash.</p>
+<h4 id="the-multi-tap-phone-cipher">The Multi-tap Phone Cipher</h4>
+<p>If you ever get a longer string of numbers to decrypt, you might want to automate things. There is no Operation in CyberChef for this type of cipher, but luckily CyberChef isn’t the only game in town, and we can use the French <a href="https://www.dcode.fr/multitap-abc-cipher">dCode</a> site, which has such a decoder (<em>and encoder in case you ever want to set your own fun puzzles</em>).
+<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/2/05-dcode.jpg" alt="Screenshot of dcode.fr" width="1008" height="507"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/2/responsive/05-dcode-xs.jpg 300w ,https://osint-news.github.io/media/posts/2/responsive/05-dcode-sm.jpg 480w ,https://osint-news.github.io/media/posts/2/responsive/05-dcode-md.jpg 768w ,https://osint-news.github.io/media/posts/2/responsive/05-dcode-lg.jpg 1024w ,https://osint-news.github.io/media/posts/2/responsive/05-dcode-xl.jpg 1360w ,https://osint-news.github.io/media/posts/2/responsive/05-dcode-2xl.jpg 1600w"></figure></p>
+<p>And with that, we’re off to Part 3!</p>
 
             ]]>
         </content>
