@@ -1,34 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>OSINT News</title>
-    <link href="https://osint-news.github.io/gh-pages/feed.xml" rel="self" />
-    <link href="https://osint-news.github.io/gh-pages" />
-    <updated>2023-02-09T01:03:06+00:00</updated>
+    <link href="https://osint-news.github.io/feed.xml" rel="self" />
+    <link href="https://osint-news.github.io" />
+    <updated>2023-02-09T01:21:50+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
-    <id>https://osint-news.github.io/gh-pages</id>
+    <id>https://osint-news.github.io</id>
 
+    <entry>
+        <title>The Seint&#x27;s Christmas CTF — Part 2</title>
+        <author>
+            <name>Badger</name>
+        </author>
+        <link href="https://osint-news.github.io/the-seints-christmas-ctf-part-2.html"/>
+        <id>https://osint-news.github.io/the-seints-christmas-ctf-part-2.html</id>
+
+        <updated>2023-02-09T01:21:50+00:00</updated>
+            <summary>
+                <![CDATA[
+                    If you want to see Part 1 of this walkthrough, you can find it here. Spoilers ahead! The next message I got from my friend was strange. I think there was something wrong with her phone. The message I got was just &quot;Going to 727774447777&quot;.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><em>If you want to see Part 1 of this walkthrough, you can find it here. <strong>Spoilers ahead!</strong></em></p>
+<pre><code>The next message I got from my friend was strange. I think there was something wrong with her phone. The message I got was just &quot;Going to 727774447777&quot;. Did she want to type a phone number or something was wrong with her phone? Could that be the hint to find the clue to her next location? 
+
+The place she was travelling to (lowercase -&gt; hash) is the password.
+</code></pre>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>OSINT Walkthrough - The Seint&#x27;s Christmas CTF, 2022</title>
         <author>
             <name>Badger</name>
         </author>
-        <link href="https://osint-news.github.io/gh-pages/osint-walkthrough-the-seint-ctf-2022.html"/>
-        <id>https://osint-news.github.io/gh-pages/osint-walkthrough-the-seint-ctf-2022.html</id>
-        <media:content url="https://osint-news.github.io/gh-pages/media/posts/1/pexels-ignat-arapov-6638877.jpg" medium="image" />
+        <link href="https://osint-news.github.io/osint-walkthrough-the-seint-ctf-2022.html"/>
+        <id>https://osint-news.github.io/osint-walkthrough-the-seint-ctf-2022.html</id>
+        <media:content url="https://osint-news.github.io/media/posts/1/pexels-ignat-arapov-6638877.jpg" medium="image" />
             <category term="CTF"/>
 
         <updated>2023-02-09T01:03:06+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://osint-news.github.io/gh-pages/media/posts/1/pexels-ignat-arapov-6638877.jpg" alt="Image of Brno, courtesy of Ignat Arapov at Pexels" />
+                        <img src="https://osint-news.github.io/media/posts/1/pexels-ignat-arapov-6638877.jpg" alt="Image of Brno, courtesy of Ignat Arapov at Pexels" />
                     I am a bit late to The Seint’s now annual OSINT CTF, but that’s probably a good thing as this series will contain spoilers. You can follow along in the posts ahead, or you can always have a go yourself at this repo. You will&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://osint-news.github.io/gh-pages/media/posts/1/pexels-ignat-arapov-6638877.jpg" class="type:primaryImage" alt="Image of Brno, courtesy of Ignat Arapov at Pexels" /></p>
+                    <p><img src="https://osint-news.github.io/media/posts/1/pexels-ignat-arapov-6638877.jpg" class="type:primaryImage" alt="Image of Brno, courtesy of Ignat Arapov at Pexels" /></p>
                 <p>I am a bit late to The Seint’s now annual OSINT CTF, but that’s probably a good thing as this series will contain spoilers. You can follow along in the posts ahead, or you can always have a go yourself <a href="https://github.com/seintpl/osintquiz/tree/main/2022">at this repo</a>. You will also find the 2021 CTF on GitHub.</p>
 <p>Rather than provide a simple show-and-tell, I will also try to share any learning I picked up along the way. This assumes I even complete the challenge, of course!</p>
 <p>We start off with a password-protected Zip file (<em>2022.zip</em>), which contains all the puzzles nested inside each other. The password to the next step is always the MD5 hash made of the current step’s answer written in lower case.</p>
@@ -39,7 +64,7 @@
 <h3 id="creating-an-md5-hash-in-cyberchef">Creating an MD5 Hash in CyberChef</h3>
 <p>If you’ve never used CyberChef before, it can be a bit intimidating, but it’s really very straightforward. There are <strong>operations</strong> on the left, which can be combined in order to create a <strong>recipe</strong> in the centre (you can simply drag the operations over). The recipe takes one ingredient (<strong>Input</strong>, top right), and hopefully bakes a nice <strong>Output</strong> (bottom right). There are lots of operations you can perform in CyberChef, but we’re only interested in one for now.</p>
 <p>Using either the Search function or by browsing in the section titled Hashing, find <strong>MD5</strong> and drag it into the recipe. Type “summer” in the Input field and watch the hash magically appear in the Output field:
-<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/gh-pages/media/posts/1/01-cyberchef.jpg" alt="Screenshot of CyberChef" width="961" height="577"  sizes="100vw" srcset="https://osint-news.github.io/gh-pages/media/posts/1/responsive/01-cyberchef-xs.jpg 300w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/01-cyberchef-sm.jpg 480w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/01-cyberchef-md.jpg 768w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/01-cyberchef-lg.jpg 1024w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/01-cyberchef-xl.jpg 1360w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/01-cyberchef-2xl.jpg 1600w"></figure></p>
+<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/1/01-cyberchef.jpg" alt="Screenshot of CyberChef" width="961" height="577"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/1/responsive/01-cyberchef-xs.jpg 300w ,https://osint-news.github.io/media/posts/1/responsive/01-cyberchef-sm.jpg 480w ,https://osint-news.github.io/media/posts/1/responsive/01-cyberchef-md.jpg 768w ,https://osint-news.github.io/media/posts/1/responsive/01-cyberchef-lg.jpg 1024w ,https://osint-news.github.io/media/posts/1/responsive/01-cyberchef-xl.jpg 1360w ,https://osint-news.github.io/media/posts/1/responsive/01-cyberchef-2xl.jpg 1600w"></figure></p>
 <p>You can now unzip the archive and see what files we’ve got for Stage 1:</p>
 <pre><code>step1.txt
 step1 - hint 1.txt
@@ -56,9 +81,9 @@ Make a hash of the color name to uncover the next step.
 <p>It’s tempting to rely on tools in the OSINT world, but occasionally you just have to charm Google or Bing with the right search term (<em>much like we’re all learning how to craft prompts to get the most out of our new AI tools</em>). So let’s try and find a European city whose cathedral bells ring noon an hour early. It took several iterations before I found the answer with:
 <code>&quot;europe cathedral ringing noon at 11&quot;</code></p>
 <p>Which led to a promising result:
-<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/gh-pages/media/posts/1/02-brno.jpg" alt="Google search results" width="627" height="127"  sizes="100vw" srcset="https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-xs.jpg 300w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-sm.jpg 480w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-md.jpg 768w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-lg.jpg 1024w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-xl.jpg 1360w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/02-brno-2xl.jpg 1600w"></figure></p>
+<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/1/02-brno.jpg" alt="Google search results" width="627" height="127"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/1/responsive/02-brno-xs.jpg 300w ,https://osint-news.github.io/media/posts/1/responsive/02-brno-sm.jpg 480w ,https://osint-news.github.io/media/posts/1/responsive/02-brno-md.jpg 768w ,https://osint-news.github.io/media/posts/1/responsive/02-brno-lg.jpg 1024w ,https://osint-news.github.io/media/posts/1/responsive/02-brno-xl.jpg 1360w ,https://osint-news.github.io/media/posts/1/responsive/02-brno-2xl.jpg 1600w"></figure></p>
 <p>The ‘little street named after a president’ turns out to be too little to find on an overhead view in Google Maps, so I ended up doing what I often do in CTFs, which is simply to have a good hunt around ‘on foot’, i.e., in Street View. Eventually, I found the skull on an alley named after the first president of the Czech Repulic:
-<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/gh-pages/media/posts/1/03-skull.jpg" alt="Image of alley behind Brno Cathedral. Source: Google Maps" width="977" height="551"  sizes="100vw" srcset="https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-xs.jpg 300w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-sm.jpg 480w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-md.jpg 768w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-lg.jpg 1024w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-xl.jpg 1360w ,https://osint-news.github.io/gh-pages/media/posts/1/responsive/03-skull-2xl.jpg 1600w"></figure></p>
+<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/1/03-skull.jpg" alt="Image of alley behind Brno Cathedral. Source: Google Maps" width="977" height="551"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/1/responsive/03-skull-xs.jpg 300w ,https://osint-news.github.io/media/posts/1/responsive/03-skull-sm.jpg 480w ,https://osint-news.github.io/media/posts/1/responsive/03-skull-md.jpg 768w ,https://osint-news.github.io/media/posts/1/responsive/03-skull-lg.jpg 1024w ,https://osint-news.github.io/media/posts/1/responsive/03-skull-xl.jpg 1360w ,https://osint-news.github.io/media/posts/1/responsive/03-skull-2xl.jpg 1600w"></figure></p>
 <p>True enough, on the other side of that gate is a large piece of cloth in a fairly distinctive colour. (<em>The relevant image was taken in 2017, so if it’s replaced with a more recent image before you try this CTF, you might need to use the Street View Timeline to go back to 2017</em>) Hashing the cloth’s colour allows us to open <code>step2.zip</code>, and you can see how I get on with that step in the next post!</p>
 <h6 id="im-stuck">I’m stuck!</h6>
 <p>If you can’t find the gate by plodding around Brno cathedral, you’re welcome to click on the spoiler below. This will take you to the location of the gate in Google Maps, and you should be able to find the cloth fairly easily.</p>
