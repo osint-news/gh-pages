@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/feed.xml" rel="self" />
     <link href="https://osint-news.github.io" />
-    <updated>2023-02-18T13:34:00+00:00</updated>
+    <updated>2023-02-18T13:42:50+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -17,19 +17,22 @@
         <link href="https://osint-news.github.io/the-seints-christmas-ctf-part-3.html"/>
         <id>https://osint-news.github.io/the-seints-christmas-ctf-part-3.html</id>
         <media:content url="https://osint-news.github.io/media/posts/3/blinded-by-the-lights.jpg" medium="image" />
+            <category term="CTF"/>
 
-        <updated>2023-02-18T13:33:16+00:00</updated>
+        <updated>2023-02-18T13:41:22+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/media/posts/3/blinded-by-the-lights.jpg" alt="" />
-                    If you want to go back to the beginning of this walkthrough, you can find it here. Spoilers ahead! I fell into a bit of a rabbit-hole on Part 3 of The Seint’s CTF, as you’ll see. It’s an example of confirmation bias, which can&hellip;
+                    Blinded by the Lights! I fell into a bit of a rabbit-hole on Part 3 of The Seint’s CTF, as you’ll see. It’s an example of confirmation bias, which can be a problem with any investigation. The key takeaway is to trust The Seint! If&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://osint-news.github.io/media/posts/3/blinded-by-the-lights.jpg" class="type:primaryImage" alt="" /></p>
-                <p><em>If you want to go back to the beginning of this walkthrough, you can find it <a href="#INTERNALLINK#/post/1">here</a>. <strong>Spoilers ahead!</strong></em></p>
-<p>I fell into a bit of a rabbit-hole on Part 3 of The Seint’s CTF, as you’ll see. It’s an example of <a href="https://en.wikipedia.org/wiki/Confirmation_bias"><em>confirmation bias</em></a>, which can be a problem with any investigation. The key takeaway is to <strong>trust The Seint</strong>! One upside of falling down the rabbit hole is that it gave me a chance to play with ChatGPT, which is clearly going to be a key ingredient in OSINT work in future, if only for the speed-up it gives you with coding. More on that later, but first let’s take a look at the clue:</p>
+                <h3 id="blinded-by-the-lights">Blinded by the Lights!</h3>
+<p>I fell into a bit of a rabbit-hole on Part 3 of The Seint’s CTF, as you’ll see. It’s an example of <a href="https://en.wikipedia.org/wiki/Confirmation_bias"><em>confirmation bias</em></a>, which can be a problem with any investigation. The key takeaway is to <strong>trust The Seint</strong>!</p>
+<p><em>If you want to go back to the beginning of this walkthrough, you can find it <a href="https://osint-news.github.io/osint-walkthrough-the-seint-ctf-2022.html">here</a>. <strong>Spoilers ahead!</strong></em></p>
+<p>One upside of falling down the rabbit hole is that it gave me a chance to play with ChatGPT, which is clearly going to be a key ingredient in OSINT work in future, if only for the speed-up it gives you with coding. More on that later, but first let’s take a look at the clue:</p>
 <pre><code>The next message came on the first day of August. It said: &quot;I know you found the cloth in Brno. The colour reminded me of a song and a movie from 1984 that had the same title. I remembered there was a place named just like the song and wanted to find it while being in Paris. I found the place on the map, but the shop wasn&#39;t there. People said it moved some time ago. I came to the nearest intersection and tried to look left first, but the sun was shining right into my eyes, just along the street. What was the time?&quot;
 
 The exact time in HH:MM format turned into a hash is the password to the next message. The time must be in that place&#39;s timezone.
@@ -67,16 +70,16 @@ The exact time in HH:MM format turned into a hash is the password to the next me
         <media:content url="https://osint-news.github.io/media/posts/2/eirik-solheim-mWTOR3Rx8l8-unsplash.jpg" medium="image" />
             <category term="CTF"/>
 
-        <updated>2023-02-18T13:34:00+00:00</updated>
+        <updated>2023-02-18T13:42:50+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://osint-news.github.io/media/posts/2/eirik-solheim-mWTOR3Rx8l8-unsplash.jpg" alt="Photo by Eirik Solheim at UNSPLASH" />
+                        <img src="https://osint-news.github.io/media/posts/2/eirik-solheim-mWTOR3Rx8l8-unsplash.jpg" alt="" />
                     If you want to see Part 1 of this walkthrough, you can find it here. Spoilers ahead! Part 2 of The Seint’s challenge would have been a real head-scratcher for me if it hadn’t appeared in a puzzle before. Here’s the text in step2.txt: The&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://osint-news.github.io/media/posts/2/eirik-solheim-mWTOR3Rx8l8-unsplash.jpg" class="type:primaryImage" alt="Photo by Eirik Solheim at UNSPLASH" /></p>
+                    <p><img src="https://osint-news.github.io/media/posts/2/eirik-solheim-mWTOR3Rx8l8-unsplash.jpg" class="type:primaryImage" alt="" /></p>
                 <p><em>If you want to see Part 1 of this walkthrough, you can find it <a href="https://osint-news.github.io/osint-walkthrough-the-seint-ctf-2022.html">here</a>. <strong>Spoilers ahead!</strong></em></p>
 <p>Part 2 of The Seint’s challenge would have been a real head-scratcher for me if it hadn’t appeared in a puzzle before. Here’s the text in <code>step2.txt</code>:</p>
 <pre><code>The next message I got from my friend was strange. I think there was something wrong with her phone. The message I got was just &quot;Going to 727774447777&quot;. Did she want to type a phone number or something was wrong with her phone? Could that be the hint to find the clue to her next location? 
@@ -105,16 +108,16 @@ The place she was travelling to (lowercase -&gt; hash) is the password.
         <media:content url="https://osint-news.github.io/media/posts/1/pexels-ignat-arapov-6638877.jpg" medium="image" />
             <category term="CTF"/>
 
-        <updated>2023-02-09T02:06:02+00:00</updated>
+        <updated>2023-02-18T13:42:18+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://osint-news.github.io/media/posts/1/pexels-ignat-arapov-6638877.jpg" alt="Image of Brno, courtesy of Ignat Arapov at Pexels" />
+                        <img src="https://osint-news.github.io/media/posts/1/pexels-ignat-arapov-6638877.jpg" alt="" />
                     I am a bit late to The Seint’s now annual OSINT CTF, but that’s probably a good thing as this series will contain spoilers. You can follow along in the posts ahead, or you can always have a go yourself at this repo. You will&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://osint-news.github.io/media/posts/1/pexels-ignat-arapov-6638877.jpg" class="type:primaryImage" alt="Image of Brno, courtesy of Ignat Arapov at Pexels" /></p>
+                    <p><img src="https://osint-news.github.io/media/posts/1/pexels-ignat-arapov-6638877.jpg" class="type:primaryImage" alt="" /></p>
                 <p>I am a bit late to The Seint’s now annual OSINT CTF, but that’s probably a good thing as this series will contain spoilers. You can follow along in the posts ahead, or you can always have a go yourself <a href="https://github.com/seintpl/osintquiz/tree/main/2022">at this repo</a>. You will also find the 2021 CTF on GitHub.</p>
 <p>Rather than provide a simple show-and-tell, I will also try to share any learning I picked up along the way. This assumes I even complete the challenge, of course!</p>
 <p>We start off with a password-protected Zip file (<em>2022.zip</em>), which contains all the puzzles nested inside each other. The password to the next step is always the MD5 hash made of the current step’s answer written in lower case.</p>
