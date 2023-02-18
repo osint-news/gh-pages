@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/feed.xml" rel="self" />
     <link href="https://osint-news.github.io" />
-    <updated>2023-02-18T13:45:22+00:00</updated>
+    <updated>2023-02-18T13:46:40+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://osint-news.github.io/media/posts/3/blinded-by-the-lights.jpg" medium="image" />
             <category term="CTF"/>
 
-        <updated>2023-02-18T13:45:22+00:00</updated>
+        <updated>2023-02-18T13:46:40+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/media/posts/3/blinded-by-the-lights.jpg" alt="" />
