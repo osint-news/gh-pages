@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/feed.xml" rel="self" />
     <link href="https://osint-news.github.io" />
-    <updated>2023-02-19T15:02:07+00:00</updated>
+    <updated>2023-02-19T15:02:34+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -61,7 +61,7 @@ Make a hash of the ship&#39;s country name (remember to make it lowercase first)
         <media:content url="https://osint-news.github.io/media/posts/3/blinded-by-the-lights.jpg" medium="image" />
             <category term="CTF"/>
 
-        <updated>2023-02-18T13:50:48+00:00</updated>
+        <updated>2023-02-19T15:02:34+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/media/posts/3/blinded-by-the-lights.jpg" alt="" />
@@ -95,7 +95,7 @@ The exact time in HH:MM format turned into a hash is the password to the next me
 <p>Back to SunCalc, and moving the clock forward to the right time made me realise I should have been listening to my doubts:
 <figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/3/11-suncalc-2.jpg" alt="SunCalc simulation of sun in Paris on 01/08/2020" width="1081" height="589"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/3/responsive/11-suncalc-2-xs.jpg 300w ,https://osint-news.github.io/media/posts/3/responsive/11-suncalc-2-sm.jpg 480w ,https://osint-news.github.io/media/posts/3/responsive/11-suncalc-2-md.jpg 768w ,https://osint-news.github.io/media/posts/3/responsive/11-suncalc-2-lg.jpg 1024w ,https://osint-news.github.io/media/posts/3/responsive/11-suncalc-2-xl.jpg 1360w ,https://osint-news.github.io/media/posts/3/responsive/11-suncalc-2-2xl.jpg 1600w"></figure></p>
 <p>Of course, <strong>this is looking left</strong> from the intersection, just as The Seint said. But the sun isn’t completely lined up… Eventually the penny dropped that if The Seint was right about the direction, maybe I need to think again about the date. It is the 2022 puzzle after all, and I only ended up looking at 2020 for spurious reasons. Sure enough, on 01/08/2022, at 14:17, <a href="https://www.suncalc.org/#/48.8731,2.3451,18/2022.08.01/14:17/1/3">the sun lines up beautifully</a>.</p>
-<p>Finally, then, with a painful reminder that <em>confirmation bias</em> is always a consideration when conducting OSINT or any kind of investigation, it was off to Part 4!</p>
+<p>Finally, then, with a painful reminder that <em>confirmation bias</em> is always a consideration when conducting OSINT or any kind of investigation, it was off to <a href="https://osint-news.github.io/the-seints-christmas-ctf-part-4.html">Part 4</a>!</p>
 <hr>
 <p><em>Feature photo is a crop of an original by <a href="https://www.pexels.com/photo/the-louvre-pyramid-in-france-during-the-golden-hour-11783046/">Mathias Reding @ Pexels</a></em></p>
 
