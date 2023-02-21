@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/feed.xml" rel="self" />
     <link href="https://osint-news.github.io" />
-    <updated>2023-02-21T23:01:04+00:00</updated>
+    <updated>2023-02-21T23:04:30+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -64,7 +64,7 @@ The make and model of the parked car mentioned in the message (in the pattern: x
         <media:content url="https://osint-news.github.io/media/posts/4/pexels-chris-schippers-427679-crop.jpg" medium="image" />
             <category term="CTF"/>
 
-        <updated>2023-02-19T15:02:07+00:00</updated>
+        <updated>2023-02-21T23:04:30+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/media/posts/4/pexels-chris-schippers-427679-crop.jpg" alt="" />
@@ -87,7 +87,7 @@ Make a hash of the ship&#39;s country name (remember to make it lowercase first)
 <p>Which led to tweets like <a href="https://twitter.com/antonhowes/status/1556554769736634368">this</a>:
 <figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/4/13-tweet.jpg" alt="Tweet" width="1640" height="1328"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/4/responsive/13-tweet-xs.jpg 300w ,https://osint-news.github.io/media/posts/4/responsive/13-tweet-sm.jpg 480w ,https://osint-news.github.io/media/posts/4/responsive/13-tweet-md.jpg 768w ,https://osint-news.github.io/media/posts/4/responsive/13-tweet-lg.jpg 1024w ,https://osint-news.github.io/media/posts/4/responsive/13-tweet-xl.jpg 1360w ,https://osint-news.github.io/media/posts/4/responsive/13-tweet-2xl.jpg 1600w"></figure></p>
 <p>It should be fairly obvious what country the Götheborg is from, but it has <a href="https://en.wikipedia.org/wiki/G%C3%B6theborg_(ship)">its own Wikipedia page</a> if you need to check!</p>
-<p>Hashing that country (in lower case, of course) gets us into Step 5!</p>
+<p>Hashing that country (in lower case, of course) gets us into <a href="https://osint-news.github.io/the-seints-christmas-ctf-part-5.html">Step 5</a>!</p>
 <h3 id="takeaway">Takeaway</h3>
 <p>No obvious takeaway today, but if you want a good guide to Twitter search operators, you’re unlikely to find anything more comprehensive than <a href="https://developer.twitter.com/en/docs/twitter-api/v1/rules-and-filtering/search-operators">Twitter’s own reference to search Standards</a>.</p>
 <hr>
