@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/feed.xml" rel="self" />
     <link href="https://osint-news.github.io" />
-    <updated>2023-02-21T23:04:30+00:00</updated>
+    <updated>2023-02-21T23:07:01+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://osint-news.github.io/media/posts/5/pexels-lukas-zvikas-1075947-crop.jpg" medium="image" />
             <category term="CTF"/>
 
-        <updated>2023-02-21T23:01:04+00:00</updated>
+        <updated>2023-02-21T23:07:01+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/media/posts/5/pexels-lukas-zvikas-1075947-crop.jpg" alt="Photo of a person sitting in front of a silver sedan at night" />
@@ -49,7 +49,7 @@ The make and model of the parked car mentioned in the message (in the pattern: x
 <h3 id="takeaway">Takeaway</h3>
 <p>There is a wealth of seemingly useless information on Wikipedia that turns out to be extremely helpful from time to time. Worth bearing in mind the next time you get a fundraising email from Jimmy Wales! (Likewise, the Wayback Machine is supported by voluntary donations.) I’m strongly of the opinion that if you benefit from a tool, then you should try and help support it.</p>
 <hr>
-<p><em>Header photo by [Lukas Žvikas at Pexels[(<a href="https://www.pexels.com/photo/person-laying-in-front-of-silver-sedan-1075947/">https://www.pexels.com/photo/person-laying-in-front-of-silver-sedan-1075947/</a>)</em></p>
+<p><em>Header photo by <a href="https://www.pexels.com/photo/person-laying-in-front-of-silver-sedan-1075947/">Lukas Žvikas at Pexels</a></em></p>
 
             ]]>
         </content>
