@@ -69,10 +69,11 @@
                 "name": "Badger"
             },
             "tags": [
+                   "ChatGPT",
                    "CTF"
             ],
             "date_published": "2023-02-18T12:41:18+00:00",
-            "date_modified": "2023-02-19T15:02:34+00:00"
+            "date_modified": "2023-02-22T21:23:23+00:00"
         },
         {
             "id": "https://osint-news.github.io/the-seints-christmas-ctf-part-2.html",

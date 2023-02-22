@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/feed.xml" rel="self" />
     <link href="https://osint-news.github.io" />
-    <updated>2023-02-22T21:21:32+00:00</updated>
+    <updated>2023-02-22T21:23:23+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -218,9 +218,10 @@ Make a hash of the ship&#39;s country name (remember to make it lowercase first)
         <link href="https://osint-news.github.io/the-seints-christmas-ctf-part-3.html"/>
         <id>https://osint-news.github.io/the-seints-christmas-ctf-part-3.html</id>
         <media:content url="https://osint-news.github.io/media/posts/3/blinded-by-the-lights.jpg" medium="image" />
+            <category term="ChatGPT"/>
             <category term="CTF"/>
 
-        <updated>2023-02-19T15:02:34+00:00</updated>
+        <updated>2023-02-22T21:23:23+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/media/posts/3/blinded-by-the-lights.jpg" alt="" />
