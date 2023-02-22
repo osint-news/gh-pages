@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/feed.xml" rel="self" />
     <link href="https://osint-news.github.io" />
-    <updated>2023-02-22T21:28:27+00:00</updated>
+    <updated>2023-02-22T21:30:02+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="ChatGPT"/>
             <category term="CTF"/>
 
-        <updated>2023-02-22T21:28:27+00:00</updated>
+        <updated>2023-02-22T21:30:02+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/media/posts/6/co-ordinates-tiny.jpg" alt="GPS co-ordinates laid over an old map" />
@@ -114,9 +114,9 @@ The answer is that unknown &quot;something something&quot; before the word &quot
 <p>On the wider puzzle, I think I would soon replace a friend like <a href="https://twitter.com/SEINT_pl">The Seint’s</a>. If I got a text from one of my friends saying <code>Guess where I am? It&#39;s somewhere pink, and rhymes with the middle name of the third Duke of Northumberland...</code>, I’d reply <code>Just tell me you idiot, I&#39;m busy.</code> But I’m glad The Seint has friends like this, even made up ones, because it gave me a bit of enjoyment on some dark winter nights.</p>
 <p>Thanks Seint, and hopefully you’ll have another set of puzzles for us at Christmas!</p>
 <h3 id="postscript">Postscript</h3>
-<p>If you’re not already convinced that  AI-powered chatbots are going to change OSINT after seeing my coding example in <a href="https://osint-news.github.io/the-seints-christmas-ctf-part-3.html">Part 3</a>, check this out:</p>
-<p><figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/6/25-chat-gpt-1.jpg" alt="Screenshot of ChatGPT conversation" width="764" height="711"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-xs.jpg 300w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-sm.jpg 480w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-md.jpg 768w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-lg.jpg 1024w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-xl.jpg 1360w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-2xl.jpg 1600w"></figure></p>
-<p><figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/6/26-chat-gpt-2.jpg" alt="Screenshot of ChatGPT conversation" width="745" height="697"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-xs.jpg 300w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-sm.jpg 480w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-md.jpg 768w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-lg.jpg 1024w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-xl.jpg 1360w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-2xl.jpg 1600w"></figure></p>
+<p>If you’re not already convinced that  AI-powered chatbots are going to change OSINT after seeing my coding example in <a href="https://osint-news.github.io/the-seints-christmas-ctf-part-3.html">Part 3</a>, check this out:
+<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/6/25-chat-gpt-1.jpg" alt="Screenshot of ChatGPT conversation" width="764" height="711"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-xs.jpg 300w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-sm.jpg 480w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-md.jpg 768w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-lg.jpg 1024w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-xl.jpg 1360w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-2xl.jpg 1600w"></figure>
+<figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/6/26-chat-gpt-2.jpg" alt="Screenshot of ChatGPT conversation" width="745" height="697"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-xs.jpg 300w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-sm.jpg 480w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-md.jpg 768w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-lg.jpg 1024w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-xl.jpg 1360w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-2xl.jpg 1600w"></figure></p>
 <p>🤯</p>
 <p><code>FIN</code></p>
 
