@@ -3,7 +3,7 @@
     <title>OSINT News</title>
     <link href="https://osint-news.github.io/feed.xml" rel="self" />
     <link href="https://osint-news.github.io" />
-    <updated>2023-02-22T21:30:02+00:00</updated>
+    <updated>2023-02-23T16:23:41+00:00</updated>
     <author>
         <name>Badger</name>
     </author>
@@ -20,22 +20,22 @@
             <category term="ChatGPT"/>
             <category term="CTF"/>
 
-        <updated>2023-02-22T21:30:02+00:00</updated>
+        <updated>2023-02-23T16:23:41+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://osint-news.github.io/media/posts/6/co-ordinates-tiny.jpg" alt="GPS co-ordinates laid over an old map" />
-                    The theme of flitting around the world continues in Part 6 of The Seint’s puzzle: The last message I got was: &quot;This trip is over. I&#39;m glad you accomapnied me virtually. Can you figure out just one more thing? Last year I found a nice&hellip;
+                    The theme of flitting around the world continues in the final Part of The Seint’s puzzle: The last message I got was: &quot;This trip is over. I&#39;m glad you accompanied me virtually. Can you figure out just one more thing? Last year I found a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://osint-news.github.io/media/posts/6/co-ordinates-tiny.jpg" class="type:primaryImage" alt="GPS co-ordinates laid over an old map" /></p>
-                <p>The theme of flitting around the world continues in Part 6 of The Seint’s puzzle:</p>
-<pre><code>The last message I got was: &quot;This trip is over. I&#39;m glad you accomapnied me virtually. Can you figure out just one more thing? Last year I found a nice café. It was just beside one of the places I visited last year. I will give you a clue of where I was - look at the attached files. The last one is from there. I remember I had to head north for about 10 minutes, under some green bridges and by a sign telling that the maximum height beneath that bridge is 4.2 m. The name of the cafe was something something cafe and one more word after that. Will you be able to find it?&quot;.
+                <p>The theme of flitting around the world continues in the final Part of The Seint’s puzzle:</p>
+<pre><code>The last message I got was: &quot;This trip is over. I&#39;m glad you accompanied me virtually. Can you figure out just one more thing? Last year I found a nice café. It was just beside one of the places I visited last year. I will give you a clue of where I was - look at the attached files. The last one is from there. I remember I had to head north for about 10 minutes, under some green bridges and by a sign telling that the maximum height beneath that bridge is 4.2 m. The name of the café was something something café and one more word after that. Will you be able to find it?&quot;.
 
-Unfortunetely one of the files got corrupted. There must be another way to find out the last, fourth location.
+Unfortunately one of the files got corrupted. There must be another way to find out the last, fourth location.
 
-The answer is that unknown &quot;something something&quot; before the word &quot;cafe&quot; in its name, written in lowercase and turned into a hash.
+The answer is that unknown &quot;something something&quot; before the word &quot;café&quot; in its name, written in lowercase and turned into a hash.
 </code></pre>
 <p><em>PS: If you want to go back to the beginning of this walkthrough, you can find it <a href="https://osint-news.github.io/osint-walkthrough-the-seint-ctf-2022.html">here</a>. <strong>Spoilers ahead!</strong></em></p>
 <p>We’re then presented with four files, like this:
@@ -118,7 +118,17 @@ The answer is that unknown &quot;something something&quot; before the word &quot
 <figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/6/25-chat-gpt-1.jpg" alt="Screenshot of ChatGPT conversation" width="764" height="711"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-xs.jpg 300w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-sm.jpg 480w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-md.jpg 768w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-lg.jpg 1024w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-xl.jpg 1360w ,https://osint-news.github.io/media/posts/6/responsive/25-chat-gpt-1-2xl.jpg 1600w"></figure>
 <figure class="post__image"><img loading="lazy" src="https://osint-news.github.io/media/posts/6/26-chat-gpt-2.jpg" alt="Screenshot of ChatGPT conversation" width="745" height="697"  sizes="100vw" srcset="https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-xs.jpg 300w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-sm.jpg 480w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-md.jpg 768w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-lg.jpg 1024w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-xl.jpg 1360w ,https://osint-news.github.io/media/posts/6/responsive/26-chat-gpt-2-2xl.jpg 1600w"></figure></p>
 <p>🤯</p>
-<p><code>FIN</code></p>
+<p>What amazes me about this dialogue with ChatGPT is:</p>
+<ol>
+<li>I am able to ask my follow-up question in <em>natural language</em>, and ChatGPT just deals with it.</li>
+<li>ChatGPT has an awareness of <em>context</em>, albeit limited to the current conversation. So when I ask “Can you convert <em>that</em> latitude and longitude…”, it is able to infer that I’m referring to information it provided me in the previous answer.</li>
+</ol>
+<p>This is a much more intuitive way of exploring a problem space and coming up with useful answers. There is the temporary bonus that I don’t have to look at a dozen ads every time I ask a question, but GPT is an expensive tool to run, and the end user will need to pick up the tab at some point.</p>
+<p>There is an aphorism doing the rounds that goes along these lines:</p>
+<blockquote>
+<p>No, AI isn’t going to replace [<em>insert job here</em>], <br> but [<em>insert job here</em>] using AI will.</p>
+</blockquote>
+<p>It’s fairly clear [<em>insert job here</em>] is going to apply to a lot of roles, and the investigator will definitely be one of them. Time to start learning how to <a href="https://learnprompting.org">prompt effectively</a>!</p>
 
             ]]>
         </content>
